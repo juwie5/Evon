@@ -1,0 +1,226 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'sf_pro_displaybold_italic';
+    src: url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_pro_displayregular';
+    src: url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+         url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_pro_displaylight';
+    src: url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-light-webfont.woff2') format('woff2'),
+         url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_pro_displaysemibold';
+    src: url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-semibold-webfont.woff2') format('woff2'),
+         url('/webfontkit-20210402-191825/fontsfree-net-sfprodisplay-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frm {
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.signfrm {
+    margin-top:30px;
+}
+
+.logfrm{
+  margin-top: 100px;
+}
+
+h1{
+    font-family: 'Comfortaa';
+    color: #3E476A;
+    font-weight: 700;
+}
+
+h2{ 
+    font-family: 'sf_pro_displayregular';
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    color: #878FAD;
+    padding-bottom: 10px;
+     margin-top: 55px;
+}
+
+/* .image{
+    width: 80px;
+    height: 80px;
+} */
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+   
+  
+}
+
+.btn-sign {
+    border: none;
+    padding: 15px 130px 14px 129px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'sf_pro_displayregular';
+    font-weight: 300;
+    line-height: 18.14px;
+    text-align: center;
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.log{
+    padding: 15px 135px 14px 135px;
+}
+
+.btn-log{
+    border: 2px solid #3D8BF2;
+    padding: 15px 135px 14px 133px;
+    color: #3D8BF2;
+    font-size: 16px;
+    font-family: 'sf_pro_displayregular';
+    font-weight: 300;
+    line-height: 18.14px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'sf_pro_displayregular';
+    font-size: 16px;
+    font-weight: 100;
+    color: #3D8BF2;
+    padding-top: 10px;
+}
+
+span{
+    color: #878FAD;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 312px;
+    height: 40px;
+    margin: 5px 0;
+    padding-left: 15px;
+    background-color: #F2F5FA;
+    box-sizing: border-box;
+    font-family: 'sf_pro_displaylight';
+    font-size: 16px;
+    font-weight: 100;
+    color: #A6ACC3;
+    border: none;
+    outline: none;
+    
+}
+
+input[name=password] {
+    background-image: url('Assets/eye-off.svg') ; 
+    background-position: 95%;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #E4E6EB;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    padding-bottom: 0px;
+}
+
+.line h2 span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.lastp {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo :first-child{
+    padding-bottom: 16px;
+}
+
+.endp {
+    padding-top: 20px;
+}
+
+.endp a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3D8BF2;
+}
+
+.pfor {
+    padding: 0;
+}
