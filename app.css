@@ -161,15 +161,18 @@ input {
     color: #A6ACC3;
     border: none;
     outline: none;
+    border-radius: 3px;
     
 }
 
-input[name=password] {
-    background-image: url('Assets/eye-off.svg') ; 
-    background-position: 95%;
-    background-repeat: no-repeat;
-    
-   
+.eyecont{
+    position: relative;
+}
+#eyeimg{
+    position: absolute;
+    right: 16px; 
+    top: 25%;
+  
 }
 
 .line {
@@ -207,8 +210,56 @@ input[name=password] {
     flex-direction: column;
 }
 
-.logo :first-child{
-    padding-bottom: 16px;
+.logo button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A6EA8;
+    color: white;
+    width: 315px;
+    height: 44px;
+    text-align: center; 
+    position: relative;
+    border-radius: 3px;
+    padding: 0;
+    border-style: none;
+    font-family: 'sf_pro_displayregular';
+    outline: none;
+}
+ 
+button:nth-of-type(2) {
+    background-color: #FFFFFF;
+    color: #878FAD;
+    border: 1px solid #E4E6EB;
+    margin-top: 10px;
+}
+
+.logo .facebook span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    background-color: #395185;
+    width: 44px;
+    height: 44px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.logo .google span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    background-color: #fff;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;   
+    border: 1px solid #E4E6EB;
 }
 
 .endp {
